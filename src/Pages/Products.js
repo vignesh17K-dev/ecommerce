@@ -31,7 +31,7 @@ function Products() {
 
     const [filteringcompany,setfilteringcompany] = useState([])
 
-    const [filteringcolor,setfilteringcolor] = useState([])
+    const [, setfilteringcolor] = useState([])
 
 
     const dispatch = useDispatch()
